@@ -1,3 +1,9 @@
 #!/usr/bin/python3
-def multiple_returns(sentence):
-    return (len(sentence), sentence[0] if len(sentence) > 0 else None)
+def max_integer(my_list=[]):
+    if my_list:
+        max = my_list[0]
+        for one in my_list:
+            if one > max:
+                max = one
+        return max
+    return None
