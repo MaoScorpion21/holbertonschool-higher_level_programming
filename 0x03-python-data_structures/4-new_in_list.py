@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def element_at(my_list, idx):
-    magic_counter = len(my_list)
-    if idx < 0 or idx > magic_counter - 1:
-        return "None"
-    Index = my_list[idx]
-    return Index
+def new_in_list(my_list, idx, element):
+    new_list = my_list[:]
+    if 0 <= idx < len(new_list):
+        new_list[idx] = element
+        return (new_list)
+    return (my_list)
