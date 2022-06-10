@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 # File: 7-base_geometry.py
-# Author: Alex Orland Arévalo Tribaldos
-# email: <3915@holbertonschool.com>
 
 """
 This module defines a base geometry class BaseGeometry.
