@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# File: 10-square.py
-
+# File: 11-square.py
 
 """
 This module defines a Rectangle subclass Square.
